@@ -1,6 +1,6 @@
 from src import *
 
-dir_out = '/home/anthony/Documents/FLOODS/Originals/'
+dir_out = '/home/anthony/Documents/GSWD_Pampa/Originals/'
 ch_dr = chrome_driver(dir_out)
 
 for year in range(2000,2022):
