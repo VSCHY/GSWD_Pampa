@@ -9,6 +9,8 @@ __pycache__/
 # tif extension
 *.tif
 
+*crdownload
+
 # Distribution / packaging
 .Python
 build/

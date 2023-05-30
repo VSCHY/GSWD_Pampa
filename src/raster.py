@@ -12,7 +12,11 @@ import numpy as np
 import numpy.ma as ma
 
 
-def get_data_raster(month, year):
+def get_data_raster(month, year, poly):
+    """
+    Get the data in a raster over a specific polygon
+    """
+    # 
     filename_in = f'/home/anthony/Documents/GSWD_Pampa/Originals/{year}_{month:02d}_percent.tif'
     filename_out = "/home/anthony/Documents/GSWD_Pampa/TEMP/temp.tif"
 
