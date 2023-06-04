@@ -17,8 +17,8 @@ def get_data_raster(month, year, poly):
     Get the data in a raster over a specific polygon
     """
     # 
-    filename_in = f'/home/anthony/Documents/GSWD_Pampa/Originals/{year}_{month:02d}_percent.tif'
-    filename_out = "/home/anthony/Documents/GSWD_Pampa/TEMP/temp.tif"
+    filename_in = f'./Originals/{year}_{month:02d}_percent.tif'
+    filename_out = "./TEMP/temp.tif"
 
     try:
         with rasterio.open(filename_in) as src0:

@@ -11,7 +11,7 @@ Individual Month Maps values:
 ## Installation
 
 ```bash
-conda create -n GSWD_Pampa -c conda-forge rasterio rioxarrayshapely pyproj webdriver-manager selenium
+conda create -n GSWD_Pampa -c conda-forge rasterio rioxarray shapely pyproj webdriver-manager selenium netcdf4
 conda activate GSWD_Pampa
 ```
 

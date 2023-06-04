@@ -8,8 +8,9 @@ __pycache__/
 
 # tif extension
 *.tif
-
+*.xlsx
 *crdownload
+*.nc
 
 # Distribution / packaging
 .Python
