@@ -24,6 +24,8 @@ total_area = np.sum(area)
 
 ##########################
 
+D_output = {}
+
 L = []
 for year in range(2000,2022):
     for month in range(1,13):
@@ -36,6 +38,9 @@ for year in range(2000,2022):
         missing_frac = missing_area/total_area
         
         out = ma.masked_where(data==255, data)/100
+        
+        
+        
         flooded_area = np.sum(out*area)
         flooded_frac = flooded_area//total_area
         
