@@ -1,0 +1,14 @@
+[OverAll]
+#
+#
+username = aschrap_23
+password = ModisHello8
+
+# Make sure the last "/" is present !
+#output = /media/anthony/easystore/IMERG_FINAL_Pampa/OUTPUT/
+output = /media/aschrapffer/easystore/IMERG_FINAL_Pampa/OUTPUT/
+
+# Make sur temp_dir is empty if not you will lose your file ..
+#temp_dir = /media/anthony/easystore/IMERG_FINAL_Pampa/TEMP/
+temp_dir = /media/aschrapffer/easystore/IMERG_FINAL_Pampa/TEMP/
+
